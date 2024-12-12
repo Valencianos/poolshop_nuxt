@@ -1,9 +1,8 @@
-version: '3.9'
 name: "nuxt-app"
 services:
   postgres:
     container_name: nuxt-app
-    image: postgres:16-alpine3.19
+    image: postgres:latest
     environment:
       POSTGRES_DB: "nuxt-app"
       POSTGRES_USER: "root"
