@@ -35,6 +35,10 @@ export default defineNuxtConfig({
           @use "@/assets/scss/_mixins.scss" as *;
         `,
       }
-      }}
-  }
+      }
+    }
+  },
+  experimental: {
+    componentIslands: true,
+  },
 })
